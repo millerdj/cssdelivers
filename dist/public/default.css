@@ -10,12 +10,17 @@
     transform: translateY(-100%);
 }
 
-.navbar-collapse {
-  height: inherit;
+@media only screen and (max-width: 692px) {
+    .navbar-collapse {
+        padding-top: 0;
+        margin-top: -7px;
+    }
 }
 
-.navbar-nav {
-  margin-top: 50px !important;
+@media only screen and (min-width: 693px) {
+    .navbar-collapse {
+        padding-top: 75px;
+    }
 }
 
 .navbar-nav li a {
@@ -23,6 +28,7 @@
   font-family: 'Roboto', sans-serif;
   color: #78006D !important;
   font-weight: bold;
+  background-color: white;
 }
 
 .container {

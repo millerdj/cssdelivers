@@ -1,0 +1,49 @@
+.navbar {
+  height: 150px;
+  background-color: rgb(255, 255, 255) !important;
+  border: none !important;
+}
+
+.navbar-brand {
+    top: 50%;
+    position: relative;
+    transform: translateY(-100%);
+}
+
+.navbar-collapse {
+  height: inherit;
+}
+
+.navbar-nav {
+  margin-top: 50px !important;
+}
+
+.navbar-nav li a {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #78006D !important;
+  font-weight: bold;
+}
+
+.container {
+  height: inherit;
+}
+
+.navbar-header {
+  height: inherit;
+}
+
+.navbar-toggle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #78006D !important;
+  font-weight: bold;
+}
+
+.demo {
+  background-color: #C4D600;
+  border-radius: 10px;
+}

@@ -43,7 +43,7 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   color: #78006D !important;
   font-weight: bold;
@@ -59,10 +59,13 @@
 }
 
 .footer-header {
+  text-align: center;
   font-size: 16px ;
   font-family: 'Roboto', sans-serif;
   color: #C4D600 !important;
   font-weight: bold;
+  height: 160px;
+  margin-bottom: 10px;
 }
 
 ul {
